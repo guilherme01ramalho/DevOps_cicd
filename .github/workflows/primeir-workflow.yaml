@@ -1,5 +1,6 @@
 name: DevOps Workflow
 
+
 on:
   push:
     branches:
@@ -10,9 +11,10 @@ jobs:
    build:
       runs-on: ubuntu-latest
 
+
       steps:
       - name: Checkout code
         uses: actions/checkout@v6
-
-        - name: Mostrar Menssagem
+        
+      - name: Mostrar Menssagem
         run: echo "Olá, Mundo DevOps!"
