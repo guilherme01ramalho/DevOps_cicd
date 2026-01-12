@@ -20,7 +20,7 @@ jobs:
       - name: Mostrar Menssagem
         run: echo "Olá, Mundo DevOps!"
 
-      - name: Checkout de Códigos
+      - name: Checkout de Codigos
         uses: actions/checkout@v4
 
       - name: Build Aplicacao
