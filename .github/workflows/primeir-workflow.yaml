@@ -21,10 +21,10 @@ jobs:
         run: echo "Olá, Mundo DevOps!"
 
       - name: Checkout de Códigos
-         uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Build Aplicacao
-         run: echo "Buildando a Aplicação"
+        run: echo "Buildando a Aplicação"
 
 
    dev:
